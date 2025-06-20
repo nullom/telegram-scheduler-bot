@@ -1,0 +1,10 @@
+# Telegram Scheduler Bot Dependencies
+
+# Telegram Bot Framework
+python-telegram-bot==21.9
+
+# Task Scheduling
+APScheduler==3.10.4
+
+# Environment Configuration
+python-dotenv==1.0.0
