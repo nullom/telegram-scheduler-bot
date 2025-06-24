@@ -347,3 +347,4 @@ class MessageScheduler:
         except Exception as e:
             self.logger.error(f"Failed to reschedule jobs: {e}")
             return False
+
