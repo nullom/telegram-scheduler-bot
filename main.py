@@ -10,7 +10,6 @@ import sys
 from pathlib import Path
 
 from telegram.ext import Application
-from telegram import Bot
 from telegram.error import TelegramError
 
 from config import Config

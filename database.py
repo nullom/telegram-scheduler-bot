@@ -6,7 +6,7 @@ Handles all SQLite operations for storing and retrieving messages.
 import sqlite3
 import logging
 from datetime import datetime, timedelta
-from typing import List, Dict, Optional, Tuple
+from typing import Dict, Optional, Tuple
 import os
 
 

@@ -5,7 +5,6 @@ Handles scheduled message sending and cleanup operations using APScheduler.
 
 import logging
 from datetime import datetime, timedelta
-from typing import Optional
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 from telegram import Bot

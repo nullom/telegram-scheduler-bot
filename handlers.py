@@ -5,7 +5,6 @@ Handles incoming messages and stores them in the database.
 
 import logging
 import re
-from typing import Optional
 from telegram import Update
 from telegram.ext import ContextTypes, MessageHandler, CommandHandler, filters
 from database import DatabaseManager
