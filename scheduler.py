@@ -283,8 +283,10 @@ class MessageScheduler:
                         
                         if earliest_send is None or today_time < earliest_send:
                             earliest_send = today_time
-                    except:
-                        pass
+                    except Exception as e:
+                        self.logger.error(
+                            f"Failed to parse scheduled time '{time_str}': {e}"
+                        )
                 
                 job_info["next_message_send"] = earliest_send
                 
